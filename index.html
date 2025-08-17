@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="pdf-lib.js" defer></script>
+    <script src="main.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Split-Merge</title>
 </head>
 <body>
-    <button id="toggle"> Switch </button>
-    <div id="mainText">Hello Universe</div>
-    <input type="file" accept=".pdf" id="file-upload"/>
-    <script src="main.js"></script>
+    <!-- <button id="toggle"> Switch </button>
+    <div id="mainText">Hello Universe</div> -->
+    <input id="input-file" type="file" accept=".pdf" id="file-upload"/>
+    <div id="drop-zone" style="border: 5px solid blue; width: 200px; height: 100px;"> <p>Drag one or more files to this <i>drop zone</i>.</p> </div>
 </body>
 </html>
